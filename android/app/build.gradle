@@ -27,6 +27,7 @@ android {
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
+
     }
 
     kotlinOptions {
@@ -78,6 +79,7 @@ android {
         checkAllWarnings = true
         warningsAsErrors = true
     }
+    ndkVersion = "26.3.11579264"
 }
 
 tasks.withType(org.jetbrains.kotlin.gradle.tasks.KotlinCompile).configureEach {

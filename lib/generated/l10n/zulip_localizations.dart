@@ -1028,7 +1028,7 @@ class _ZulipLocalizationsDelegate extends LocalizationsDelegate<ZulipLocalizatio
   bool isSupported(Locale locale) => <String>['ar', 'en', 'fr', 'ja', 'pl', 'ru'].contains(locale.languageCode);
 
   @override
-  bool shouldReload(_ZulipLocalizationsDelegate old) => false;
+  bool shouldReload(_ZulipLochoose calizationsDelegate old) => false;
 }
 
 ZulipLocalizations lookupZulipLocalizations(Locale locale) {
